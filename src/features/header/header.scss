@@ -1,0 +1,12 @@
+@import './view-display-button/view-display-button';
+
+.header {
+  display: grid;
+  grid-column-start: -1;
+  justify-content: end;
+  height: 100px;
+
+  .view-display-buttons {
+    margin: auto 50px;
+  }
+}

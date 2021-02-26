@@ -1,0 +1,15 @@
+.view-button {
+  width: 40px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: #989898;
+  }
+
+  &:not(:disabled) {
+    background-color: #ECECEC;
+  }
+}

@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  padding-top: 30px;
+
+  .refresh-button {
+    color: white;
+    border: none;
+    padding: 12px 14px;
+    margin: 0 auto;
+    outline-color: transparent;
+    font-size: 14px;
+    border-radius: 3px;
+
+    &:disabled {
+      background-color: gray;
+    }
+
+    &:not(:disabled) {
+      cursor: pointer;
+      background-color: #1E90FF;
+    }
+  }
+}
